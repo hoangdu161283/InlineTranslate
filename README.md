@@ -18,14 +18,14 @@ Output: `dist\InlineTranslate.exe` — portable, **không cần cài .NET** trê
 
 1. Chạy `InlineTranslate.exe` → icon xuất hiện ở system tray
 2. Chọn văn bản bất kỳ trong bất kỳ app nào
-3. Nhấn `Alt+Q` (hoặc phím tắt bạn đã đổi)
+3. Nhấn `Alt+D` (hoặc phím tắt bạn đã đổi)
 4. Popup dịch hiện gần con trỏ, tự đóng sau 7 giây
 
 ## Tính năng
 
 | | |
 |---|---|
-| Hotkey | `Alt+Q` mặc định — đổi được: chuột phải icon tray → **Đổi phím tắt…** |
+| Hotkey | `Alt+D` mặc định — đổi được: chuột phải icon tray → **Đổi phím tắt…** |
 | Ngôn ngữ | Auto-detect: EN→VI, VI→EN (và hơn 100 ngôn ngữ khác) |
 | Ô đang gõ | Đang gõ trong ô nhập (ô chat, Notepad…), không bôi đen → bấm phím tắt → **dòng có con trỏ** được thay luôn bằng bản dịch. Tắt/bật ở menu tray |
 | Popup | Rounded corners, dark theme, nút Copy |
@@ -46,7 +46,7 @@ Output: `dist\InlineTranslate.exe` — portable, **không cần cài .NET** trê
 InlineTranslate/
 ├── Program.cs           – Entry point
 ├── AppContext.cs        – System tray + app lifetime
-├── HotkeyHost.cs        – Đăng ký Alt+Q, nhận WM_HOTKEY, điều phối flow
+├── HotkeyHost.cs        – Đăng ký Alt+D, nhận WM_HOTKEY, điều phối flow
 ├── TranslationService.cs– Gọi Google Translate API (HttpClient)
 ├── TranslatePopup.cs    – Borderless popup UI (WinForms)
 └── InlineTranslate.csproj
