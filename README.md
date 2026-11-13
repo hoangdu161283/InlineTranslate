@@ -1,6 +1,6 @@
 # Inline Translate (.NET 8)
 
-Dịch văn bản ngay trong ứng dụng. Chọn → `Alt+Q` → xem bản dịch.
+Dịch văn bản ngay trong ứng dụng. Chọn → `Alt+D` → xem bản dịch.
 
 ## Yêu cầu build
 - Windows 10/11
