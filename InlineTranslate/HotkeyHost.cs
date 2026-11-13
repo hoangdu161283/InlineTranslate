@@ -10,7 +10,7 @@ namespace InlineTranslate;
 
 /// <summary>
 /// Hidden message-only window that:
-///   1. Registers a configurable global hotkey (default Alt+Q) via RegisterHotKey
+///   1. Registers a configurable global hotkey (default Alt+D) via RegisterHotKey
 ///   2. Receives WM_HOTKEY and triggers the translate flow
 /// </summary>
 sealed class HotkeyHost : Form

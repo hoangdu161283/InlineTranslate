@@ -1,6 +1,6 @@
 # Inline Translate — CLAUDE.md
 
-Ứng dụng Windows dịch văn bản inline. Chọn text → `Alt+Q` → popup dịch hiện gần chuột.
+Ứng dụng Windows dịch văn bản inline. Chọn text → `Alt+D` → popup dịch hiện gần chuột.
 
 ## Stack
 - **C# .NET 8**, WinForms, không dùng NuGet bên ngoài
@@ -25,7 +25,7 @@ InlineTranslate/
 ## Flow chính (HotkeyHost.cs → HandleAsync)
 
 ```
-Hotkey pressed (mặc định Alt+Q, cấu hình được)
+Hotkey pressed (mặc định Alt+D, cấu hình được)
   → chèn phím mask 0xE8 khi Alt còn giữ (tránh app đích vào chế độ menu vì thấy Alt nhấn/nhả đơn lẻ)
   → lưu cursor pos, đóng popup cũ, lưu clipboard cũ
   → đợi user nhả hết phím bổ trợ

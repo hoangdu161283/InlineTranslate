@@ -126,7 +126,7 @@ sealed class AppContext : ApplicationContext
     private void ShowAbout()
     {
         MessageBox.Show(
-            "Inline Translate v1.1\n\n" +
+            "Inline Translate v1.1.1\n\n" +
             "• Chọn văn bản bất kỳ\n" +
             $"• Nhấn  {_hotkeyHost.Hotkey}\n" +
             "• Bản dịch hiện ngay tại chỗ\n\n" +

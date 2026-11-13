@@ -6,10 +6,10 @@ using System.Windows.Forms;
 
 namespace InlineTranslate;
 
-/// <summary>Tổ hợp phím tắt toàn cục, ví dụ "Alt+Q", "Ctrl+Shift+T", "F8".</summary>
+/// <summary>Tổ hợp phím tắt toàn cục, ví dụ "Alt+D", "Ctrl+Shift+T", "F8".</summary>
 sealed record Hotkey(bool Ctrl, bool Alt, bool Shift, bool Win, Keys Key)
 {
-    public static readonly Hotkey Default = new(false, true, false, false, Keys.Q);
+    public static readonly Hotkey Default = new(false, true, false, false, Keys.D);
 
     /// <summary>Cờ MOD_* cho RegisterHotKey.</summary>
     public int Modifiers =>
